@@ -36,5 +36,8 @@ The human-machine interface provided by the Apollo Guidance Computer is based on
 
 Just as what the memory bank checksum routine operated on was fixed, so too is what the Dodge the Lasers solution operates on.  The first iteration of the new code computes the solution to the problem for an input value of 128.  The second iteration computes the solution for an input of 129, the third iteration for 130 and so on.  The initial value of 128 was chosen because it is easily generated and produces an answer large enough to be avoid being trivial and yet still display on the computer's four digit display.
 
-# Compiling and running the code
+# Compiling and Running the Code
 Compiling and running the code depends on the compiler and emulator in the [Virtual Apollo Guidance Computer Project](http://www.ibiblio.org/apollo/index.html).  Once you are able to compile and run the AGC code in that project, all that is necessary to compile and build the software in this repo is to replace the Comanche055 directory in the Virtual AGC source tree with the directory in this repo and rebuild the Virtual Apollo Guidance Computer's binaries.
+
+# Note on Algorithm
+A description of the algirthm used to solve the Dodge the Lasers problem is intentionally withheld to preserve the challenge for others participating in Google's FooBar Challenge.  Anyone who can reverse engineer the algorithm from the code in this repo has some mad code-fu.
